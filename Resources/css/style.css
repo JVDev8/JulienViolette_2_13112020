@@ -39,7 +39,7 @@ a {
 }
 
 main {
-    padding:0 0 2.5rem 0;
+    padding: 0 0 2.5rem 0;
 }
 
 .filterBtn, .mainShelters .shelterFrame, .secondList .shelterFrame, .activityFrame .figcaption {
@@ -61,7 +61,7 @@ header img {
     padding: 1rem;
 }
 
-headr img, header nav, header nav ul, header nav ul li, header nav ul li a, #registration {
+header img, header nav, header nav ul, header nav ul li, header nav ul li a, #registration {
     height: 6rem;
 }
 
