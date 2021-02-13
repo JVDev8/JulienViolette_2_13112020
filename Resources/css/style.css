@@ -321,6 +321,7 @@ figcaption {
 
 .shelterFrame figcaption {
     padding: 0.5rem 1rem;
+    border-radius: 0 0 1rem 1rem;
 }
 
 figure {
