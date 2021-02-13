@@ -39,10 +39,10 @@ a {
 }
 
 main {
-    padding-bottom: 2.5rem;
+    padding: 0 0 2.5rem 0;
 }
 
-.filterBtn, shelterFrame, figcaption {
+.filterBtn, .mainShelters .shelterFrame, .secondList .shelterFrame, .activityFrame .figcaption {
     background-color: white;
 }
 
@@ -310,7 +310,7 @@ header nav ul li a:hover:after {
 }
 
 .mainShelters .shelterFrame {
-    -min-height: 12rem;
+    min-height: 12rem;
     padding: 0.25rem;
 }
 
@@ -321,7 +321,6 @@ figcaption {
 
 .shelterFrame figcaption {
     padding: 0.5rem 1rem;
-    border-radius: 0 0 1rem 1rem;
 }
 
 figure {
@@ -340,7 +339,6 @@ figcaption i {
 .firstList figure {
     display: grid;
     grid-template-rows: 60% 40%;
-    border: 0.25rem;
 }
 
 .mainShelters .shelterFrame img {
@@ -348,6 +346,11 @@ figcaption i {
     width: 100%;
     height: 100%;
     border-radius: 1rem 1rem 0 0;
+}
+
+.shelterFrame a {
+    width: 100%;
+    height: 100%;
 }
 
 .secondList {
@@ -371,6 +374,11 @@ figcaption i {
     flex-grow: 1;
 }
 
+.secondList .shelterFrame {
+    padding: 0.25rem;
+    min-width: 19.5rem;
+}
+
 .secondList .shelterFrame img {
     object-fit: cover;
     width: 100%;
@@ -381,7 +389,6 @@ figcaption i {
 .secondList figure {
     display: grid;
     grid-template-columns: 40% 60%;
-    overflow: hidden;
 }
 
 .secondList p {
@@ -393,7 +400,7 @@ figcaption i {
 }
 
 .noStar {
-    color: #E6E6E6;
+    color: #d9d9d9;
 }
 
 /* Activities List */
@@ -734,7 +741,3 @@ footer div ul li {
         align-items: flex-start;
     }
 }
-
-
-  
-
