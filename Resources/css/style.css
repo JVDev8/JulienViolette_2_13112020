@@ -16,9 +16,6 @@ html {
     display: none;
 }
 
-body {
-    background-color: red;
-
 h1, h2 {
     font-size: 1.4rem;
 }
@@ -313,7 +310,7 @@ header nav ul li a:hover:after {
 }
 
 .mainShelters .shelterFrame {
-    height: 12rem;
+    -min-height: 12rem;
     padding: 0.25rem;
 }
 
