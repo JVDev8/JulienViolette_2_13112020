@@ -16,6 +16,9 @@ html {
     display: none;
 }
 
+body {
+    background-color: red;
+
 h1, h2 {
     font-size: 1.4rem;
 }
