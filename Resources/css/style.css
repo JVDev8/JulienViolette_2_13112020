@@ -342,15 +342,10 @@ figcaption i {
 }
 
 .mainShelters .shelterFrame img {
-    object-fit: cover;
+    object-fit: fill;
     width: 100%;
     height: 100%;
     border-radius: 1rem 1rem 0 0;
-}
-
-.shelterFrame a {
-    width: 100%;
-    height: 100%;
 }
 
 .secondList {
