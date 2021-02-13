@@ -310,7 +310,7 @@ header nav ul li a:hover:after {
 }
 
 .mainShelters .shelterFrame {
-    min-height: 12rem;
+    height: 12rem;
     padding: 0.25rem;
 }
 
